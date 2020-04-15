@@ -1,0 +1,7 @@
+en:
+  gorriecoe\AdvancedEmailLinks\AdvancedEmailLinksExtension:
+    EMAILCC: 'CC'
+    EMAILBCC: 'BCC'
+    EMAILSUBJECT: 'Subject'
+    EMAILBODY: 'Body'
+    OPTIONAL: 'Optional'

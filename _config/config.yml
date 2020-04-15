@@ -1,0 +1,6 @@
+---
+Name: advancedemaillinksconfig
+---
+gorriecoe\Link\Models\Link:
+  extensions:
+    - gorriecoe\AdvancedEmailLinks\AdvancedEmailLinksExtension
