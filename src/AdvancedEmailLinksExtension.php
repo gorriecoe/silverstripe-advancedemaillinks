@@ -43,7 +43,7 @@ class AdvancedEmailLinksExtension extends DataExtension
             Wrapper::create(
                 EmailField::create(
                     'Email',
-                    _t(Link::class . '.Email', 'Email')
+                    _t(Link::class . '.EMAILADDRESS', 'Email')
                 ),
                 EmailField::create(
                     'EmailCC',
