@@ -104,10 +104,12 @@ class AdvancedEmailLinksExtension extends DataExtension
                 $options['body'] = 'body=' . rawurlencode($owner->EmailBody);
             }
             $options = implode('&', $options);
-            $linkURL = implode('?', [
-                $linkURL,
-                $options
-            ]);
+            if ($options) {
+                $linkURL = implode('?', [
+                    $linkURL,
+                    $options
+                ]);
+            }
         }
     }
 }
